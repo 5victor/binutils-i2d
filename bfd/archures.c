@@ -125,6 +125,8 @@ DESCRIPTION
 .
 .  bfd_arch_or32,      {* OpenRISC 32 *}
 .
+.  bfd_arch_i2d,       {* i2d *}
+.
 .  bfd_arch_sparc,     {* SPARC *}
 .#define bfd_mach_sparc			1
 .{* The difference between v8plus and v9 is that v9 is a true 64 bit env.  *}
@@ -501,6 +503,7 @@ extern const bfd_arch_info_type bfd_frv_arch;
 extern const bfd_arch_info_type bfd_h8300_arch;
 extern const bfd_arch_info_type bfd_h8500_arch;
 extern const bfd_arch_info_type bfd_hppa_arch;
+extern const bfd_arch_info_type bfd_i2d_arch;
 extern const bfd_arch_info_type bfd_i370_arch;
 extern const bfd_arch_info_type bfd_i386_arch;
 extern const bfd_arch_info_type bfd_i860_arch;
@@ -581,6 +584,7 @@ static const bfd_arch_info_type * const bfd_archures_list[] =
     &bfd_h8300_arch,
     &bfd_h8500_arch,
     &bfd_hppa_arch,
+    &bfd_i2d_arch,
     &bfd_i370_arch,
     &bfd_i386_arch,
     &bfd_i860_arch,

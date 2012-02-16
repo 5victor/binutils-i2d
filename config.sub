@@ -288,6 +288,7 @@ case $basic_machine in
 	| ns16k | ns32k \
 	| open8 \
 	| or32 \
+	| i2d \
 	| pdp10 | pdp11 | pj | pjl \
 	| powerpc | powerpc64 | powerpc64le | powerpcle \
 	| pyramid \
@@ -1562,6 +1563,9 @@ case $basic_machine in
 		;;
 	or32-*)
 		os=-coff
+		;;
+	i2d-*)
+		os=-elf
 		;;
 	*-tti)	# must be before sparc entry or we get the wrong os.
 		os=-sysv3

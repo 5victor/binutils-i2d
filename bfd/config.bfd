@@ -82,6 +82,7 @@ crx*)		 targ_archs=bfd_crx_arch ;;
 dlx*)		 targ_archs=bfd_dlx_arch ;;
 fido*)		 targ_archs=bfd_m68k_arch ;;
 hppa*)		 targ_archs=bfd_hppa_arch ;;
+i2d*)		 targ_archs=bfd_i2d_arch ;;
 i[3-7]86)	 targ_archs=bfd_i386_arch ;;
 i370)		 targ_archs=bfd_i370_arch ;;
 lm32)	         targ_archs=bfd_lm32_arch ;;
@@ -1068,6 +1069,10 @@ case "${targ}" in
 
   or32-*-elf)
     targ_defvec=bfd_elf32_or32_big_vec
+    ;;
+
+  i2d-*-elf)
+    targ_defvec=bfd_elf32_i2d_vec
     ;;
 
   pdp11-*-*)

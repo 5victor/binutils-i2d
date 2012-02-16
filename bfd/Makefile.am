@@ -117,6 +117,7 @@ ALL_MACHINES = \
 	cpu-ns32k.lo \
 	cpu-openrisc.lo \
 	cpu-or32.lo \
+	cpu-i2d.lo \
 	cpu-pdp11.lo \
 	cpu-pj.lo \
 	cpu-plugin.lo \
@@ -192,6 +193,7 @@ ALL_MACHINES_CFILES = \
 	cpu-ns32k.c \
 	cpu-openrisc.c \
 	cpu-or32.c \
+	cpu-i2d.c \
 	cpu-pdp11.c \
 	cpu-pj.c \
 	cpu-plugin.c \
@@ -314,6 +316,7 @@ BFD32_BACKENDS = \
 	elf32-mt.lo \
 	elf32-openrisc.lo \
 	elf32-or32.lo \
+	elf32-i2d.lo \
 	elf32-pj.lo \
 	elf32-ppc.lo \
 	elf32-rx.lo \
@@ -498,6 +501,7 @@ BFD32_BACKENDS_CFILES = \
 	elf32-mt.c \
 	elf32-openrisc.c \
 	elf32-or32.c \
+	elf32-i2d.c \
 	elf32-pj.c \
 	elf32-ppc.c \
 	elf32-rx.c \

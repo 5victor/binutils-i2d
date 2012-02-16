@@ -663,6 +663,7 @@ extern const bfd_target bfd_elf32_ntradbigmips_freebsd_vec;
 extern const bfd_target bfd_elf32_ntradlittlemips_freebsd_vec;
 extern const bfd_target bfd_elf32_openrisc_vec;
 extern const bfd_target bfd_elf32_or32_big_vec;
+extern const bfd_target bfd_elf32_i2d_vec;
 extern const bfd_target bfd_elf32_pj_vec;
 extern const bfd_target bfd_elf32_pjl_vec;
 extern const bfd_target bfd_elf32_powerpc_vec;
@@ -1028,6 +1029,7 @@ static const bfd_target * const _bfd_target_vector[] =
 #endif
 	&bfd_elf32_openrisc_vec,
 	&bfd_elf32_or32_big_vec,
+	&bfd_elf32_i2d_vec,
 	&bfd_elf32_pj_vec,
 	&bfd_elf32_pjl_vec,
 	&bfd_elf32_powerpc_vec,
