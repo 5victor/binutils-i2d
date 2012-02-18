@@ -1832,6 +1832,8 @@ enum bfd_architecture
 
   bfd_arch_or32,      /* OpenRISC 32 */
 
+  bfd_arch_i2d,       /* i2d */
+
   bfd_arch_sparc,     /* SPARC */
 #define bfd_mach_sparc                 1
 /* The difference between v8plus and v9 is that v9 is a true 64 bit env.  */

@@ -358,6 +358,9 @@
 /* (Deprecated) Temporary number for the OpenRISC processor.  */
 #define EM_OR32			0x8472
 
+/* Temp number for i2d */
+#define EM_I2D			0x0713
+
 /* Cygnus PowerPC ELF backend.  Written in the absence of an ABI.  */
 #define EM_CYGNUS_POWERPC	0x9025
 
